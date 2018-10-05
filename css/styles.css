@@ -1,0 +1,22 @@
+.markup-nav{
+}
+
+.markup-nav-logo{
+  width: 150px;
+}
+
+.markup-header{
+  height: 500px;
+  border-style: solid;
+  overflow: hidden;
+  background-image: url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  background-size: 100% auto;
+}
+
+.markup-header-image{
+  position: relative;
+  top: -50%;
+  width: 100%;
+}
