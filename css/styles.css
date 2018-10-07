@@ -1,22 +1,134 @@
 .markup-nav{
 }
 
-.markup-nav-logo{
-  width: 150px;
+header{
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.markup-header-logo{
+  width: 21%;
 }
 
 .markup-header{
-  height: 500px;
-  border-style: solid;
-  overflow: hidden;
   background-image: url("../img/header.jpg");
   background-repeat: no-repeat;
-  background-position: 50% 60%;
-  background-size: 100% auto;
+  background-size: 100% 100%;
+  height: 800px;
 }
 
-.markup-header-image{
-  position: relative;
-  top: -50%;
-  width: 100%;
+.container-component{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.img-component{
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+
+.img-component img{
+  width: 40%;
+}
+
+.line-component{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.line{
+  background-color: #436870;
+  height: 1px;
+}
+
+.title-component{
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 5%;
+}
+
+.h1-component{
+  font-size: 60px;
+  color: #436870;
+}
+
+.about-component{
+  padding-bottom: 3%;
+}
+
+.socio-component-jose{
+  padding-right: 80px;
+  color: #424242;
+  font-family: 'DINPro-Cond'
+}
+
+.socio-component-rodrigo{
+  padding-left: 80px;
+  color: #424242;
+  font-family: 'DINPro-Cond'
+}
+
+.title-text{
+  font-size: 45px;
+}
+
+.socio-text-rol{
+  font-size: 30px;
+}
+
+.socio-text-description{
+  text-align: justify;
+  font-size: 28px;
+}
+
+.socio-text-contact{
+  font-size: 26px;
+}
+
+
+
+/* ------------------------------------ */
+
+@font-face
+{
+  font-family: "DINPro-Cond";
+  src: url("../DINPRO/DINPro-Cond.otf");
+}
+
+@font-face
+{
+  font-family: "DINPro-CondBold";
+  src: url("../DINPRO/DINPro-CondBold.otf");
+}
+
+h1
+{
+  font-family: "DINPro-CondBold";
+}
+
+/* ------------------------------------ */
+
+/*Opciones para pantallas inferiores a 767px*/
+@media screen and (max-width: 767px){
+  .markup-header{
+    height: 500px;
+  }
+}
+
+/*Opciones para pantallas inferiores a 480px*/
+@media screen and (max-width: 480px){
+  header{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .markup-header-logo{
+    width: 50%;
+  }
+
+  .markup-header{
+    height: 250px;
+  }
 }
