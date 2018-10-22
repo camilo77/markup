@@ -1,4 +1,35 @@
-.markup-nav{
+.header_show{
+  position: relative;
+  z-index: 1231;
+}
+
+.header_hide{
+  position: relative;
+  z-index: 1;
+}
+
+.menu_hide{
+  /*display: none;*/
+  height: 70px;
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  z-index: 1000;
+  transition: all 1s ease;
+}
+
+.menu_show{
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 1230;
+  transition: all 1s ease;
+}
+
+.nav_hide{
+  display: none;
+  transition: all 0.3s ease;
 }
 
 header{
@@ -175,6 +206,7 @@ footer{
   top: -82px; 
   left: 44%;
   z-index: 10;
+  cursor: pointer;
 }
 
 /* ------------------------------------ */
