@@ -62,7 +62,7 @@ header{
   font-family: 'DINPro-Cond';
   text-align: center;
   color: white;
-  font-size: 45px;
+  font-size: 35px;
   line-height: normal;
 }
 
@@ -199,11 +199,11 @@ footer{
 .container-top {
   position: relative;
 }
- 
+
 .container-top img {
   position: absolute;
   width: 160px;
-  top: -82px; 
+  top: -82px;
   left: 44%;
   z-index: 10;
   cursor: pointer;
@@ -250,7 +250,7 @@ h1
     padding-top: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 2px;
+    padding-bottom: 20px;
   }
 
   .markup-header-text{
@@ -324,11 +324,11 @@ h1
   .footer-page{
     font-size: 20px;
   }
-   
+
   .container-top img {
     position: absolute;
     width: 160px;
-    top: -82px; 
+    top: -82px;
     left: 40%;
     z-index: 1;
   }
@@ -354,7 +354,7 @@ h1
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 2px;
+    padding-bottom: 10px;
   }
 
   .markup-header-text{
@@ -427,11 +427,11 @@ h1
   .footer-page{
     font-size: 20px;
   }
-   
+
   .container-top img {
     position: absolute;
     width: 160px;
-    top: -82px; 
+    top: -82px;
     left: 28%;
     z-index: 1;
   }
